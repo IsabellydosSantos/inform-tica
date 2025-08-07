@@ -1,4 +1,5 @@
 n = int(input("Insira a tabuada que deseja: "))
 
-for count in range(10):
-print("{} * {} = {}".format(n, count+1, n*(count+1))
+for i in range(1,11):
+    resultado = n * i
+    print(f"{n} * {i} = {resultado}")
